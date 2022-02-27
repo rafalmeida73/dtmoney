@@ -1,7 +1,7 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.header`
-  background-color: var(--blue)
+  background-color: var(--blue);
 `;
 
 export const Content = styled.header`
@@ -13,7 +13,7 @@ export const Content = styled.header`
   align-items: center;
   justify-content: space-between;
 
-  button{
+  button {
     font-size: 1rem;
     color: #fff;
     background-color: var(--blue-light);
@@ -24,8 +24,8 @@ export const Content = styled.header`
 
     transition: filter 0.2s;
 
-    &:hover{
-      filter: brightness(0.9)
+    &:hover {
+      filter: brightness(0.9);
     }
   }
 `;

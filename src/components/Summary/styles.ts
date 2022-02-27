@@ -1,34 +1,32 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
-  display:flex;
+  display: flex;
   justify-content: space-around;
   margin-top: -10rem;
 
-  div{
+  div {
     width: 22rem;
     background-color: var(--shape);
     padding: 1.5rem 2rem;
     border-radius: 0.25rem;
-    color: var(--text-title)
-
-    header{
+    color: var(--text-title) header {
       display: flex;
       align-items: center;
       justify-content: space-between;
     }
 
-    strong{
+    strong {
       display: block;
       margin-top: 1rem;
       font-size: 2rem;
       font-weight: 500;
-      line-height: 3rem
+      line-height: 3rem;
     }
 
-    &.highlight-background{
+    &.highlight-background {
       background-color: var(--green);
-      color: #fff
+      color: #fff;
     }
   }
 `;
